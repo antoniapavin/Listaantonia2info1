@@ -1,0 +1,42 @@
+body{
+    animation: changeBackgroundColor 5s infinite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@keyframes changeBackgroundColor {
+    0%{
+        background-color: rgb(219, 81, 81);
+    }
+    50%{
+        background-color: rgb(228, 228, 124);
+    }
+    100%{
+        background-color: rgb(96, 96, 221);
+    }
+}
+
+.container{
+    width: 50%;
+    margin: 60px auto 0px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+
+.removed{
+    color: gray;
+}
+
+.removed label{
+    text-decoration: line-through;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+footer{
+    color: rgb(70, 56, 56);
+    text-align: center;
+}
